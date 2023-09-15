@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Raleway:wght@100;200;300;400;500;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-pink-color: #ec7979;
+  --bg-dark-grey-color: ;
+  --bg-black-color: ;
+}
+
+h1 {
+  color: #000;
+  font-family: "Raleway", sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+h2 {
+  color: #000;
+  font-family: "Raleway", sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+h3 {
+  color: #000;
+  font-family: "Open Sans", sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+h4 {
+  color: #000;
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+h5 {
+  color: #000;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+h6 {
+  color: #000;
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.container.pricing {
+  background: #f5f5f5;
+}
+
+.pricing-options {
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.pricing-options__discription {
+  color: #86878b;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.pricing-options__breakline {
+    margin: 0 auto;
+    border: 1px solid #ec7979;
+    width: calc(100% - 1030px);
+}
+
+.pricing-options__item__name {
+  background-color: #333333;
+  border: 2px solid #f5f5f5;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.pricing-options__item__price {
+  background-color: #333333;
+  border: 2px solid #f5f5f5;
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.pricing-options__item__discription {
+  background-color: #333333;
+  border: 2px solid #f5f5f5;
+  color: rgba(255, 255, 255, 0.5);
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.pricing-options__item__content__item {
+  border: 2px solid #f5f5f5;
+  background: #fff;
+  color: #86878b;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
