@@ -107,10 +107,8 @@ h6 {
 .pricing-options__items,
 .customers-quote__items {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
-  width: 100%;
-  gap: calc((100% - 3 * 31.6%) / 2);
+  gap: calc((100% - 3 * (370/1200) * 100%) / 3);
 }
 
 .pricing-options__item {
@@ -172,9 +170,12 @@ h6 {
   background: #fff;
 }
 
+.customers-quote__items {
+  padding-bottom: 64px;
+}
+
 .customers-quote__item {
   flex-grow: 1;
-  width: 31.6%;
 }
 
 .customers-quote__title::after,
@@ -203,6 +204,7 @@ h6 {
   text-wrap: wrap;
   padding: 38px 0;
   margin-bottom: 20px;
+  resize: none;
 }
 
 .customers-quote__item__quote::after {
@@ -218,11 +220,12 @@ h6 {
   display: flex;
   flex-direction: row;
   text-align: left;
+  gap: calc(30/370 * 100%);
+  
 }
 
 .customers-quote__item__customer-info__image {
-  width: 18.9%;
-  margin-right: 30px;
+  width: calc(70/370 * 100%);
 }
 
 .customers-quote__item__customer-info__image > img {
@@ -230,9 +233,13 @@ h6 {
   border-radius: 50%;
 }
 
+.customers-quote__item__customer-info__name-position {
+  width: calc(269/370 * 100%);
+}
+
 .customers-quote__item__customer-info__name {
   margin-bottom: 15px;
-  padding: 7.8% 0;
+  padding: 3.9% 0;
 }
 
 .customers-quote__item__customer-info__position {
