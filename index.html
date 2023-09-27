@@ -64,12 +64,19 @@
             </a>
           </div>
           <div class="authorization-content__form">
-            <h4 class="authorization-content__form__title">
-              Try Your <mark class="red">FREE</mark> Trial Today
-            </h4>
-            <a href="#" class="authorization-content__form__button">
-              Get Started
-            </a>
+            <div class="authorization-content__form__content">
+              <h4 class="authorization-content__form__content__title">
+                Try Your <mark class="red">FREE</mark> Trial Today
+              </h4>
+              <form action="#" class="authorization-content__form__content-form">
+                <input type="text" name="name" placeholder="Name" id="authorization-content__form__content__name" class="authorization-content__form__content__input" required>
+                <input type="email" name="email" placeholder="Email" id="authorization-content__form__content__email" class="authorization-content__form__content__input" required>
+                <input type="password" name="password" placeholder="Password" id="authorization-content__form__content__password" class="authorization-content__form__content__input" required>
+                <button class="authorization-content__form__content__button">
+                  Get Started
+                </button>
+              </form>
+            </div>
           </div>
         </div>
       </section>
@@ -493,6 +500,29 @@
             gorgeous prototypes faster than ever!
           </p>
           <a href="." class="design-download-content__button"> Download </a>
+        </div>
+      </section>
+      <section class="container contact-us">
+        <div class="contact-us-content">
+          <h2 class="contact-us-content__title">
+            Contact Us
+          </h2>
+          <p class="contact-us-content__discription">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </p>
+          <form action="#" class="contact-us-content__form">
+            <div class="contact-us-content__form__content">
+              <div class="contact-us-content__form__left">
+                <input type="text" placeholder="Name" name="contact-us-content__form__left__name" id="contact-us-content__form__left__name" class="contact-us-content__form__left__input">
+                <input type="email" placeholder="Email" name="contact-us-content__form__left__email" id="contact-us-content__form__left__email" class="contact-us-content__form__left__input">
+                <input type="password" placeholder="Password" name="contact-us-content__form__left__password" id="contact-us-content__form__left__password" class="contact-us-content__form__left__input">
+              </div>
+              <div class="contact-us-content__form__right">
+                <textarea placeholder="Message" name="contact-us-content__form__right__textarea" id="contact-us-content__form__right__textarea" class="contact-us-content__form__right__textarea" cols="73" rows="10" class="contact-us-content__form__right__textarea"></textarea>
+              </div>
+            </div>
+            <button type="submit" class="contact-us-content__form__button">Send Message</button>
+          </form>
         </div>
       </section>
     </main>
