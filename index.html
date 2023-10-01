@@ -10,12 +10,28 @@
     <header class="container header">
       <div class="header__wrapper">
         <a class="header__logo" href="#">
-          <svg viewBox="0 0 88 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M10.6011 0.456055H16.1137L26.3906 31.1461H20.7993L18.2006 23.4952H8.43549L5.87609 31.1461H0.28479L10.6011 0.456055ZM17.2162 19.3023L13.3574 6.63729L9.34112 19.3023H17.2162Z" fill="white"/>
-            <path d="M32.3708 0.456055L39.3008 11.7811L46.1915 0.456055H52.0978L42.4115 16.0172L51.7828 31.1461H45.8765L39.3008 20.2533L32.6858 31.1461H26.7401L36.1114 16.0172L26.4251 0.456055H32.3708Z" fill="white"/>
-            <path d="M54.9126 31.1461V0.456055H60.3464V31.1461H54.9126Z" fill="#EC7979"/>
-            <path d="M87.0875 5.68633H78.1493V31.1461H72.7549V5.68633H63.8167V0.456055H87.0875V5.68633Z" fill="#EC7979"/>
-          </svg>            
+          <svg
+            viewBox="0 0 88 32"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M10.6011 0.456055H16.1137L26.3906 31.1461H20.7993L18.2006 23.4952H8.43549L5.87609 31.1461H0.28479L10.6011 0.456055ZM17.2162 19.3023L13.3574 6.63729L9.34112 19.3023H17.2162Z"
+              fill="white"
+            />
+            <path
+              d="M32.3708 0.456055L39.3008 11.7811L46.1915 0.456055H52.0978L42.4115 16.0172L51.7828 31.1461H45.8765L39.3008 20.2533L32.6858 31.1461H26.7401L36.1114 16.0172L26.4251 0.456055H32.3708Z"
+              fill="white"
+            />
+            <path
+              d="M54.9126 31.1461V0.456055H60.3464V31.1461H54.9126Z"
+              fill="#EC7979"
+            />
+            <path
+              d="M87.0875 5.68633H78.1493V31.1461H72.7549V5.68633H63.8167V0.456055H87.0875V5.68633Z"
+              fill="#EC7979"
+            />
+          </svg>
         </a>
         <nav class="header__nav">
           <div class="header__nav__items">
@@ -24,6 +40,25 @@
             <a class="header__nav__item" href="#pricing">Pricing</a>
             <a class="header__nav__item" href="#customers">Reviews</a>
             <a class="header__nav__item">Contact</a>
+          </div>
+          <div class="header__nav__burger">
+            <input id="header__nav__burger__button" type="checkbox" />
+            <label
+              class="header__nav__burger__label"
+              for="header__nav__burger__button"
+            >
+              <span></span>
+            </label>
+            <div class="header__nav__burger__items">
+              <a class="header__nav__burger__item" href="#features"
+                >Features</a>
+              <a class="header__nav__burger__item" href="#about">About</a>
+              <a class="header__nav__burger__item" href="#pricing">Pricing</a>
+              <a class="header__nav__burger__item" href="#customers"
+                >Reviews</a
+              >
+              <a class="header__nav__burger__item">Contact</a>
+            </div>
           </div>
         </nav>
       </div>
@@ -68,10 +103,34 @@
               <h4 class="authorization-content__form__content__title">
                 Try Your <mark class="red">FREE</mark> Trial Today
               </h4>
-              <form action="#" class="authorization-content__form__content-form">
-                <input type="text" name="name" placeholder="Name" id="authorization-content__form__content__name" class="authorization-content__form__content__input" required>
-                <input type="email" name="email" placeholder="Email" id="authorization-content__form__content__email" class="authorization-content__form__content__input" required>
-                <input type="password" name="password" placeholder="Password" id="authorization-content__form__content__password" class="authorization-content__form__content__input" required>
+              <form
+                action="#"
+                class="authorization-content__form__content-form"
+              >
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="Name"
+                  id="authorization-content__form__content__name"
+                  class="authorization-content__form__content__input"
+                  required
+                />
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Email"
+                  id="authorization-content__form__content__email"
+                  class="authorization-content__form__content__input"
+                  required
+                />
+                <input
+                  type="password"
+                  name="password"
+                  placeholder="Password"
+                  id="authorization-content__form__content__password"
+                  class="authorization-content__form__content__input"
+                  required
+                />
                 <button class="authorization-content__form__content__button">
                   Get Started
                 </button>
@@ -241,7 +300,9 @@
       <section class="container about" id="about">
         <div class="about-content">
           <h2 class="about-content__title">WHY THIS IS AWESOME</h2>
-          <p class="about-content__discription">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p class="about-content__discription">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </p>
           <div class="about-content__items">
             <div class="about-content__item">
               <div class="about-content__item__logo">
@@ -290,14 +351,14 @@
                   </g>
                   <circle cx="46" cy="46" r="45.5" stroke="#EC7979" />
                   <defs>
-                    <clipPath id="clip0_2360_672">
+                    <clippath id="clip0_2360_672">
                       <rect
                         width="66"
                         height="46"
                         fill="white"
                         transform="translate(13 23)"
                       />
-                    </clipPath>
+                    </clippath>
                   </defs>
                 </svg>
               </div>
@@ -504,24 +565,47 @@
       </section>
       <section class="container contact-us">
         <div class="contact-us-content">
-          <h2 class="contact-us-content__title">
-            Contact Us
-          </h2>
+          <h2 class="contact-us-content__title">Contact Us</h2>
           <p class="contact-us-content__discription">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </p>
           <form action="#" class="contact-us-content__form">
             <div class="contact-us-content__form__content">
               <div class="contact-us-content__form__left">
-                <input type="text" placeholder="Name" name="contact-us-content__form__left__name" id="contact-us-content__form__left__name" class="contact-us-content__form__left__input">
-                <input type="email" placeholder="Email" name="contact-us-content__form__left__email" id="contact-us-content__form__left__email" class="contact-us-content__form__left__input">
-                <input type="password" placeholder="Password" name="contact-us-content__form__left__password" id="contact-us-content__form__left__password" class="contact-us-content__form__left__input">
+                <input
+                  type="text"
+                  placeholder="Name"
+                  name="contact-us-content__form__left__name"
+                  id="contact-us-content__form__left__name"
+                  class="contact-us-content__form__left__input"
+                />
+                <input
+                  type="email"
+                  placeholder="Email"
+                  name="contact-us-content__form__left__email"
+                  id="contact-us-content__form__left__email"
+                  class="contact-us-content__form__left__input"
+                />
+                <input
+                  type="password"
+                  placeholder="Password"
+                  name="contact-us-content__form__left__password"
+                  id="contact-us-content__form__left__password"
+                  class="contact-us-content__form__left__input"
+                />
               </div>
               <div class="contact-us-content__form__right">
-                <textarea placeholder="Message" name="contact-us-content__form__right__textarea" id="contact-us-content__form__right__textarea" class="contact-us-content__form__right__textarea" cols="73" rows="10" class="contact-us-content__form__right__textarea"></textarea>
+                <textarea
+                  placeholder="Message"
+                  name="contact-us-content__form__right__textarea"
+                  id="contact-us-content__form__right__textarea"
+                  class="contact-us-content__form__right__textarea"
+                ></textarea>
               </div>
             </div>
-            <button type="submit" class="contact-us-content__form__button">Send Message</button>
+            <button type="submit" class="contact-us-content__form__button">
+              Send Message
+            </button>
           </form>
         </div>
       </section>
